@@ -4,23 +4,13 @@
 }
 
 body {
-    padding: 24px 12px;
+    padding: 12px 6px;
 }
 
 .block {
     float: left;
     margin-bottom: 30px;
     width: 100%;
-}
-
-@media(min-width: 960px){
-    .block-50 {
-        width: 48%;
-        margin-right: 2%;
-    }
-    .lead {
-        font-size: 1.3em;
-    }
 }
 
 .center {
@@ -61,4 +51,19 @@ h1 {
     font-weight: 700;
     text-decoration: none;
     
+}
+
+
+@media(min-width: 960px){
+    body {
+        padding: 24px 12px;
+    }
+    
+    .block-50 {
+        width: 48%;
+        margin-right: 2%;
+    }
+    .lead {
+        font-size: 1.3em;
+    }
 }
