@@ -1,0 +1,64 @@
+* {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    color: #0f0f55;
+}
+
+body {
+    padding: 24px 12px;
+}
+
+.block {
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+@media(min-width: 960px){
+    .block-50 {
+        width: 48%;
+        margin-right: 2%;
+    }
+    .lead {
+        font-size: 1.3em;
+    }
+}
+
+.center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+
+iframe,
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {    
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #ffb428;
+    font-size: 3em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    background: #0f0f55;
+    
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
