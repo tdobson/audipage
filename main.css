@@ -7,6 +7,11 @@ body {
     padding: 12px 6px;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 .block {
     float: left;
     margin-bottom: 18px;
@@ -73,7 +78,8 @@ h1 {
     .block-50 {
         width: 48%;
         margin-right: 2%;
-    }
+    }    
+    
     .lead {
         font-size: 1.3em;
     }
